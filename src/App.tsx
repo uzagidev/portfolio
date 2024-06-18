@@ -1,12 +1,13 @@
 import "./App.css";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Nav/Navbar";
 
 function App() {
   return (
-    <>
-      <div className="hello">
-        <h1>&lt;Hello world/&gt;</h1>
-      </div>
-    </>
+    <div className="font-chivo-mono">
+      <Navbar/>
+      <Hero/>
+    </div>
   );
 }
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,12 +26,7 @@ html, body {
 }
 
 a {
-  font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -72,4 +70,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.font-chivo-mono {
+  font-family: "Chivo Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
