@@ -1,7 +1,9 @@
 const Hero = () => {
   return (
-    <div className="text-3xl font-bold">
-      Hero
+    <div className="container-md">
+      <div className="px-6">
+        Hero
+      </div>
     </div>
   );
 };
